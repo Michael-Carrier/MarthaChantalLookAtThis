@@ -1,0 +1,536 @@
+367
+Archeologia e Calcolatori
+30, 2019, 367-385
+GIS MAPPING OF THE ARCHAEOLOGICAL SITES
+IN THE MOLISE REGION (ITALY)
+1. Introduction
+The Molise Region is in the northern sector of southern Italy and it is
+spread from the Apennine chain to the Adriatic coast. This area experienced
+human presence since prehistoric times, as it is testified by its rich archaeological
+and architectural heritage (De Benedittis 1979; Coarelli, La Regina 1984)1
+.
+The oldest human presence in Molise is represented by the Upper Palaeolithic settlement of Isernia La Pineta, dated back at about 600.000 years
+BP (Coltorti et al. 1982, 2005 and references; Peretto 2013). The site
+represents a unique example in the history of the human frequentation in
+Europe for the presence of a considerable number of paleontological finds
+associated to lithic artefacts. Other more recent and relevant prehistoric sites
+have been also found in the municipalities of Pescopennataro (Rio Verde site),
+Carovilli (Piana S. Mauro and Fonte Curello sites), Rocchetta a Volturno
+(Grotta Reali site), Civitanova del Sannio (Morricone del Pesco site), Cerro
+al Volturno (Monte S. Croce site) and in the Biferno Valley (Barker 1995;
+Grimaldi 2005; Minelli, Peretto 2006; Rufo et al. 2010; Rufo 2011).
+After prehistoric times, the most relevant archaeological findings can
+be chronologically dated to the Samnite Age (ranging from the V to the I
+century BC). In this period, several villages and about thirty Samnite fortifications were built, the latter being in correspondence to some of the highest
+topographic peaks of the Molise Region. These fortifications were built with
+the technique of opera poligonalis and were connected to each other through
+transhumance routes, the so called tratturi (AA.VV. 1980; Pellicano 2007;
+Meini, Di Felice, Petrella 2018; Minotti et al. 2018). The remains of
+Pietrabbondante (Fig. 1 A) (Capini, De Benedittis 2000; La Regina 2014),
+the small temples of Vastogirardi (Morel 1984; Pagano, Ceccarelli,
+D’Andrea 2005) and S. Giovanni in Galdo (Stek 2010), the fortifications
+of Terravecchia di Sepino (Matteini Chiari, Gaggiotti, De Benedettis
+1984) and Monte Vairano (De Benedittis 1974, 1988, 2004) are amazing
+examples of the Samnites’ culture.
+The Samnite Age ceased with the arrive of the Romans, who dominated
+the entire region in the period between the I century BC and the V century AD.
+1 For this kind of study, the bibliographic research just took into account the most relevant
+and general papers and volumes published for each archaeological site, without considering the
+large amount of papers regarding local and specific investigations.
+368
+E. Valente, M. Cozzolino
+Roman findings are evenly widespread in Molise, and the city of Saepinum (Fig.
+1 B) is considered the symbol of the history of Roman civilization. Saepinum
+was a Samnite commercial forum and service centre, then it became a Roman
+municipium and, later, it was transformed into a medieval and modern rural village (Gaggiotti, Matteini Chiari 1979; De Benedittis 1981; Ceglia 2015).
+Other examples of important Roman towns are Aesernia (Fig. 1 C) (Catalano,
+Paone, Terzani 2001; Terzani 2005; Stek et al. 2015; Amato et al. 2016),
+Venafrum (Capini 1990; Conventi 2004; Mataluna 2012), Bovianum (De
+Benedittis 1977; Amato et al. 2013 and references) and Larinum (De Tata
+1990; Di Niro 1991; Caliò, Lepone, Lippolis 2011; Lippolis et al. 2015).
+Medieval findings include, among all, the monastery of San Vincenzo
+al Volturno (Fig. 1 D) (Marazzi, Delogu 1996; Paone et al. 2004) and the
+necropolis of Campochiaro (Ceglia 1988, 2000 and references; Ceglia,
+Marchetta 2012), both testifying the early Medieval phase. The cathedrals
+of Trivento, Guardialfiera, Termoli and Larino and the castles of Civitacampomarano, Roccamandolfi, Cerro al Volturno, Termoli, Venafro, Gambatesa
+and Campobasso are also noteworthy evidences of Medieval Age, whose
+stories and transformations represent important pages of the Molise history
+(Marino, Carnevale, Pesino 2003; Di Rocco 2009).
+In the last years, both the Superintendency for the Archaeological Heritage of the Molise Region and different national and international academic
+teams carried out numerous archaeological excavations and explorations in
+the entire Molise Region. As a result, some archaeological contexts can now
+rely on a rich literature and updated results, whereas other areas still require
+a detailed overall analysis and, especially, a systematic study. Moreover, many
+archaeological materials derived from emergency excavations during either
+public or private works are unstudied. In addition, there is a lack of an organic
+and complete “reading” of all the known data and the concrete need to acquire
+additional information on areas that have never been investigated to date.
+In order to standardize and store the myriad of archaeological data from the
+Molise Region, from 2013 until present, a fruitful collaboration between the
+University of Molise, the Regional Directorate of Cultural Heritage of Molise
+and the Administrative Division of Molise has led to undertake significant
+actions of intervention for the knowledge and the preservation of the ancient
+landscape, according to the following workflow:
+– Census of all known archaeological findings of the Molise Region through
+bibliographic analysis.
+– Implementation, for the first time, of a detailed and updated archaeological
+database.
+– Integration of this database into a geographical information system by
+using the software ArcMap 10.1 to apply spatial analysis techniques and to
+derive thematic maps.
+369
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+Fig. 1 – Some of the most relevant archaeological sites in the Molise Region. A) Remains of Pietrabbondante; B) The Roman town of Sepinum; C) Roman walls of Aesernia; D) Monastery of San
+Vincenzo al Volturno.
+– Generation of an updated computerized map of the archaeological evidences
+of the study area as a product useful for the promotion of the archaeological
+heritage and a tool for more suitable urban planning and project designs.
+2. Material and methods
+The work has been based on separate phases of investigation that include
+the collection of archaeological data, the collection of topographic data, the
+GIS database creation, and the GIS spatial analysis.
+2.1 Collection of archaeological data
+The collection of a large amount of data about archaeological sites within
+the Molise Region has been carried out through a two steps research. In a first
+phase of investigation, published detail scale archaeological researches carried
+out by both local public authorities and single scientists have been analysed.
+The archaeological maps realized in the municipalities of Venafro (Quilici,
+370
+E. Valente, M. Cozzolino
+Quilici Gigli 2011), Riccia, Oratino, Castropignano (De Benedittis 2008),
+Bonefro, Casacalenda, Castellino del Biferno, Colletorto, Montelongo, Montorio
+dei Frentani, Morrone del Sannio, Provvidenti, Ripabottoni, Rotello, S. Croce
+di Magliano, S. Giuliano di Puglia, Ururi (Di Niro, Santone, Santoro 2010),
+Isernia (Stek et al. 2015; Amato et al. 2016), Belmonte del Sannio, Agnone,
+Capracotta, Vastogirardi, San Pietro Avellana (Sardella 2011) and Trivento
+(Santorelli 2013) are good examples of exhaustive known data related to
+detail scale archaeological surveys. The monographs of the hill-forts of the Samnites (Oakley 1995) and of the Palaeolithic sites in Molise (Grimaldi 2005)
+gave also important overviews on the distribution of archaeological sites during
+specific time span. The Atlas of Cultural Emergencies of Molise (Zilli 2010),
+edited by University of Molise, has been also analysed; the latter represents,
+up to now, the unique attempt to take a census of archaeological sites in the
+Molise Region, resulting in the collection of 228 sites (124 classical sites, 73
+industrial archaeological remnants, 31 sites belonging to various categories).
+The combination of all the previously mentioned researches led us to
+gather, in 2015, an unprecedented collection of archaeological data in the
+frame of the project “Conoscere per Competere” supported by the Administrative Division of Molise. This project resulted in the collection of 905
+archaeological sites in the entire region. In addition, 977 archaeological data
+collected by Barker (1995) in the Biferno valley have been also added to our
+database. As a result, 1882 archaeological sites have been collected during
+this first step of the research.
+In a second phase of investigation, the archives of the Archaeological
+Superintendence have been analysed thanks to the collaboration with the
+Regional Directorate of Cultural Heritage of Molise. Consequently, new and
+inedited data from archaeological impact assessment reports (related to public or private works) and database regarding excavations, finds, monuments
+and historical buildings have been acquired. The combination of these two
+consecutive phases of investigation led us to collect 3111 archaeological sites
+within the entire Molise Region.
+2.2 Collection of topographic data
+The collection of topographic data includes topographic maps both at
+scale 1:5000 (Technical Map of the Molise Region) and 1:25.000 (I.G.M.
+topographic maps) made available by the technical offices of the Molise Region. In addition, a 40 m DTM of the Molise Region has been used.
+2.3 GIS database creation
+All the collected archaeological sites have been listed in a point shapefile through the software ArcGIS 10.1 and then plotted on the previously
+371
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+mentioned topographic maps and on the 40 m Molise DTM. The point
+shapefile, named “archaeological sites”, includes several fields that have been
+introduced to provide a complete and accurate description of every single site.
+Moreover, fields have been named as follows (field type is in parentheses):
+– Code (string, length 10) that includes three letters derived from the name of
+the municipality where the site is located followed by a progressive number;
+– Province (string, length 20), which is the administrative Province (either
+Isernia or Campobasso) where archaeological sites fall within;
+– Municipality (string, length 50), the name of the municipality where the
+site is located;
+– Locality (string, length 50) and Address (string, length 50), that provide
+further information about site location;
+– Reference system (string, length 20), that is the reference system used to
+geolocate archaeological sites (UTM-WGS84);
+– Z coord (double, precision 0, scale 0), that is the elevation above sea level
+of every site;
+– Point X (double, precision 0, scale 0) and Point Y (double, precision 0, scale
+0) that represent longitude and latitude of the plotted sites respectively;
+– Cartography (string, length 20) that is the type of topographic map used to locate the archaeological site (either 1:5000 or 1:25.000 scale topographic maps);
+– Number cart. (string, length 20) that is the number of the used topographic
+map;
+– Georeferencing method (string, length 50), a brief description of the method used to locate every archaeological site, either by web research, satellite
+images, topographic maps, field work or aerial photos;
+– Georeference quality (string, length 20), which includes three possibilities,
+approximate, good and certain, based on how much reliable the site location is;
+– Research method (string, length 50), the research method used to recognize
+every single site, including web research, bibliographic research and field work;
+– Description (string, length 254), a first, brief description of the archaeological
+sites, which have been subdivided in 19 classes;
+– Definition (string, length 254) a brief, more detailed description of the sites;
+– Description_1 to Description_5 (string, length 254), five fields used to
+provide a very complete and detailed description of every archaeological site;
+– Age_1 (string, length 254), a precise age of every site;
+– Age_2 (string, length 254), ages grouped in the 11 age ranges proposed by
+Barker (1995): Palaeolithic (older than 4500 BC), Neolithic (4500 BC-3000
+BC), Eneolithic (3000 BC-2000 BC), Bronze Age (2000 BC-1000 BC), Iron Age
+(1000 BC-500 BC), Samnite Age (500 BC-80 BC), Roman Age (80 BC-600
+BC), Medieval Age (600 AD-1500 AD), Post-medieval Age (1500 AD-1800
+AD), Recent Age (1800 AD-present).
+372
+E. Valente, M. Cozzolino
+– References (string, length 254), both paper and web references where every
+single archaeological site has been derived from.
+2.4 GIS spatial analysis
+All the 3111 listed archaeological sites have been then analysed in a GIS
+software to derive information about their spatial distribution. Moreover, in
+order to quantify the areal distribution of the mapped sites, we performed a
+density analysis trough the “Kernel Density” method of ArcGIS 10.1 by setting
+the following parameters (unit measure is m): output cell size = 284 (which
+is the default value); search radius = 1000; area units = square kilometres;
+output values as = densities; method = planar.
+Then, site distribution during different ages has been analysed by grouping all the archaeological sites in the age classes listed in the Age_2 field of
+the “archaeological site” shapefile. Archaeological sites grouped for age have
+been then plotted on the 40 m Molise DTM.
+Furthermore, site elevation (expressed in meters above sea level) respect
+the site age has been examined to verify a possible trend in sites distribution
+through time. In this case, we have selected all archaeological sites with the
+same age and exported them in a new point shapefile. We have then created a
+box-plot graph through the “create graph” option within the table of attribute,
+using site elevation as the value field.
+Finally, the archaeological sites spatial distribution and its relationship
+with some natural (rivers) and man-made (tratturi) features of the landscape
+has been investigated. We created two polyline shapefiles for both the features
+and we applied a buffer of 1000 m to both the “river” and the “tratturi”
+shapefile. We have then clipped the “archaeological site” shapefile with this
+buffer and we have extracted all the sites located within 1000 m from both
+the river and the tratturi features.
+3. Results
+The spatial distribution of all the 3111 mapped archaeological sites of
+the Molise Region is reported in Fig. 2. Moreover, archaeological sites have
+been plotted on a 40 m DTM of the Molise Region together with a polyline
+shapefile that includes the borders of all the municipalities of the Molise Region. Sites distribution enhances the occurrence of three main clusters located,
+respectively, in the north-eastern, central and south-western sectors of the
+region. The north-eastern cluster is NE-SW oriented and corresponds with
+the Biferno river valley, being located between the municipalities of Petrella
+Tifernina and Lucito, to the SW, and Termoli and Campomarino to the NE.
+The central cluster is roughly N-S oriented, being limited by the municipality
+of Castropignano and Torella del Sannio to the N and of Bojano, San Polo
+373
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+Matese and Campochiaro to the S. The SW cluster is NE-SW oriented and it
+is limited by the town of Isernia to the NE and the municipality of Venafro
+to the SW.
+Among the entire Molise Region, the Larino municipality has the
+largest number of archaeological sites within its territory, with 277 mapped
+sites (Fig. 3a). It is followed by Casacalenda (186 sites, Fig. 3b), Isernia (167
+sites, Fig. 4a), Guglionesi (162 sites, Fig. 4b), Trivento (106 sites, Fig. 5a) and
+Campomarino (102 sites, Fig. 5b), that are the only municipalities with more
+than 100 archaeological sites.
+Other municipalities with a relevant number of archaeological sites are
+Venafro (98 sites), Agnone (66 sites), Termoli (65 sites), Castropignano (61
+sites), Baranello (53 sites), Macchia Valfortore (49 sites), Colle D’Anchise
+and Guardialfiera (46 sites), Vinchiaturo (44 sites), Morrone del Sannio (43
+sites), San Martino in Pensilis (38 sites), Petrella Tifernina (36 sites), Colli al
+Volturno and Oratino (35 sites), and Bojano and Pietrabbondante (30 sites).
+The remaining municipalities have a few archaeological sites never exceeding
+30. It is worthy to note that Campobasso, that is the administrative centre of
+the Molise Region and the most populated town of the entire region (49320
+inhabitants), is characterized by the occurrence of only 6 archaeological sites.
+Fig. 2 – Spatial distribution of the mapped archaeological sites, plotted on a 40 m
+DTM of the Molise Region. Black dots indicate the archaeological sites whereas
+black lines indicate the borders of all the municipalities of the Molise Region.
+374
+E. Valente, M. Cozzolino
+Fig. 3 – Map of the archaeological sites for all the municipalities
+with more than 100 mapped sites. A = Larino; B = Casacalenda.
+Archaeological sites have been classified according to site typology
+of the “description” field of the “archaeological site” shapefiles (see
+Material and Methods section for detail).
+The Kernel density method allows us to quantify the number of archaeological sites for square-kilometre (Fig. 6). The analysis confirms the
+occurrence of the above described three main clusters with the highest density
+value occurring around Isernia, where a value of about 82 sites/km² has been
+obtained. In addition, maximum site density values of 21 sites/km² and 12
+sites/km² have been obtained, respectively, for the NE-SW trending cluster
+(that corresponds to the Biferno river valley) and for the N-S trending cluster
+located in the central sector of the Molise Region. Furthermore, the analysis
+375
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+Fig. 4 – Map of the archaeological sites for all the municipalities with
+more than 100 mapped sites. A = Isernia; B = Guglionesi. Archaeological sites have been classified according to site typology of the
+“description” field of the “archaeological site” shapefiles (see Material
+and Methods section for detail).
+enhances the occurrence of other local high-density values. The latter are in
+the central-northern and in the eastern sectors of the Molise Region, corresponding to the municipalities of Trivento and Macchia Valfortore respectively.
+Moreover, a value of 50 sites/km² has been obtained for the Trivento cluster
+whereas a value of about 15 sites/km² has been obtained for the Macchia
+Valfortore cluster.
+In Figs. 7a to 7l the chronological distribution of the mapped archaeological sites is reported. It is worth to note that 1679 archaeological sites
+376
+E. Valente, M. Cozzolino
+Fig. 5 – Map of the archaeological sites for all the municipalities with more
+than 100 mapped sites. A = Trivento; B = Campomarino. Archaeological
+sites have been classified according to site typology of the “description”
+field of the “archaeological site” shapefiles (see Material and Methods
+section for detail).
+(54% of the total) have been either occupied for long time or re-occupied
+after a period of abandonment, so they will appear in more than one map.
+During the Palaeolithic (Fig. 7a) archaeological sites were mainly located in
+the north-eastern (e.g., the lower Biferno river valley) and in the south-western
+(e.g. the Volturno river valley and the Venafro plain) sectors of the Molise
+Region, with sparse sporadic sites in the central portion of the Region.
+377
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+Fig. 6 – Density map of the archaeological sites of the Molise Region.
+The same areas resulted to be occupied also during the Neolithic, together
+with diffuse findings in the central portion of the Molise Region and in the
+medium Biferno river valley (Fig. 7b). During the Eneolithic (Fig. 7c), the Bronze
+Age (Fig. 7d) and the Iron Age (Fig. 7e), archaeological sites have been recognized only in the Biferno river valley and in the central portion of the Region.
+On the opposite, they were completely lacking in the western portion of the
+Region, with the only exception of few sporadic findings and of a sites cluster
+in the northern sector of the study area during the Iron Age. Archaeological
+sites of Samnite Age (Fig. 7f) are widespread all over the entire study area, with
+only some areas in the central portion of the Region with some Samnite finds.
+The same occurred during the Roman time (Fig. 7g), with Roman finds
+distributed in the entire Region and mirroring the three main clusters recognized
+in Fig. 1. Medieval finds are spread in the entire study area, with two main clusters in the Biferno river valley and in the central portion of the Region (Fig. 7h).
+On the opposite, Post-medieval archaeological sites have been recognized only
+in the Biferno valley and in the central portion of the Region, being completely
+lacking in the rest of the Region (Fig. 7i). Recent archaeological finds (Fig. 7j)
+are very few with a random distribution within the study area. Finally, 372 sites
+(12% of the total, Fig. 7k) have an uncertain age and they have been mainly
+recognized in the central-western portion of the Molise Region.
+378
+E. Valente, M. Cozzolino
+Fig. 7 – Chronological distribution of the archaeological sites in the Molise Region. White dots
+indicates archaeological sites of a precise age whereas black dots indicate archaeological sites older
+than the considered age.
+We have also analysed site distribution as a function of the site elevation (expressed in meters above sea level) to verify if either sites distribution
+moved towards higher or lower elevations during time or if any correlation
+is present. In Fig. 8 we report a box plot of the site elevation as a function of
+the site age. It is possible to note that the minimum site elevation is almost
+constant during different period. The median values (dotted line within each
+box plot of Fig. 8) highlight the occurrence of an increasing trend from the
+379
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+Palaeolithic (median value around 190 m a.s.l.) to the Medieval time (median
+value around 530 m a.s.l.), with a local minimum during the Eneolithic Age
+(median value around 190 m a.s.l.). A decreasing trend of the site elevation has
+been recognized from the Medieval to the Recent Ages (median value around
+400 m a.s.l.). The same trend has been recognized for the maximum elevations
+with values ranging from about 1050 m a.s.l. (during both the Paleolithic and
+the Neolithic Ages) to about 1300 m a.s.l. (during the Medieval Age), with a
+local minimum during the Eneolithic Age (maximum elevation around 880
+m a.s.l.) and a local maximum during the Samnite Age (maximum elevation
+close to 1400 m a.s.l.).
+The typology of archaeological finds is shown in Fig. 9. Type groups are
+those included in the “description” field of the “archaeological site” shapefiles
+described in the material and methods section. Moreover, the most diffuse
+site type is the archaeological finds group that includes 57,1% of the total
+mapped sites followed by settlements (12,9%) and buildings (9,8%). Sacred
+areas represent 5,8% of the total sites whereas buildings dealing with industrial
+archaeology and funeral areas correspond to 2,6% of the total. Surrounding walls include 2,4% of the total sites, being followed by castles (1,9%),
+fortifications (1,4%) and hydraulic structures (1,3%). Streets and towers are
+less diffuse, both representing 0,6% of the total mapped areas. Moreover,
+the “other” type group includes archaeological sites of distinct types (such
+as caves, cave paintings, submarine archaeological finds and thermal baths)
+that, collectively, do not exceed 1% of the total mapped sites.
+Finally, we have analysed a possible correlation between site location
+and some either man-made (tratturi) or natural (river) features of the landscape (Fig. 10). Archaeological sites located within 1000 m from the tratturi are reported in Fig. 10a. As tratturi appeared during the V century BC
+(Mastronardi 2004), the archaeological sites from the Palaeolithic to the
+Iron Age have been excluded from this analysis. This buffer includes 530
+sites (19% of the 2786 sites ranging in age from the Samnite to the Recent
+time), also counting 58 sites of uncertain age. All the site typologies listed in
+Fig. 9 fall within this buffer. In addition, archaeological sites located within
+1000 m from main rivers are reported in Fig. 10b. It includes 399 sites (13%
+of the total) whose ages range from the Palaeolithic to the Recent time, also
+including 45 sites of uncertain age. Again, all the site typologies listed in
+Fig. 9 fall within this buffer.
+4. Discussion and conclusion
+The use of GIS software and database has become widespread practice
+in international archaeology allowing to store and to analyse a large amount
+of data (Djindjian 1998; Gillings, Wheatley 2003; Chapman 2006).
+380
+E. Valente, M. Cozzolino
+Fig. 9 – Percentage of archaeological site typology respect to the total
+mapped sites.
+Fig. 8 – Box plot of the site elevation (m a.s.l.) as a
+function of site age.
+Moreover, this study provides a powerful tool to analyse human distribution
+in the Molise Region. It represents, up to now, the largest, more detailed and
+well-organized GIS database of archaeological finds within the study area.
+Some relevant features could be derived by the GIS analysis described in
+the previous sections. First, 3111 archaeological sites represent an unexpected
+and relevant number of mapped sites, widespread in the entire region, with
+three main clusters located along the Biferno river valley, in the central and
+in the south-western sectors of the region, respectively. Moreover, the highest
+densities (expressed as site/km²) have been found in the south-western cluster.
+Here, the density value of 82 archaeological sites/km² has been recognized in
+381
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+correspondence of the historical centre of Isernia. This high-density value is
+due to the detailed archaeological survey carried out by Amato et al. (2016)
+that has been included in our database. Most of the mapped archaeological
+sites have been classified as archaeological finds, whereas the most diffuse
+site typologies, that reflect the occurrence of a well-organized human society,
+are settlements, buildings and sacred areas.
+The chronological and the elevation (expressed as meter above sea level)
+distribution of archaeological sites enhance that, during the Palaeolithic to
+the Iron Age time span, archaeological sites were clustered along the Biferno
+valley and in the central sector of the Molise Region. In addition, they were
+located at the median elevation usually not exceeding 400 m a.s.l. probably
+because these areas were very close to the river network that represented the
+main water source at that time. During the Samnite and Roman ages, archaeological sites are almost homogeneously distributed in the entire region. In this
+period, and during the Samnite Age, humans started moving uphill, as it is
+testified by the occurrence of several Samnite fortification located on top of
+many ridges. This is due to the necessity to protect human settlements from
+foreign invasion also considering that the highest topographic peaks led the
+view to reach far distances. This tendency to protect human settlements is still
+present during Medieval time, when foreign attacks were common. For these
+reasons, many castles were built on the top of the ridges during Medieval to
+Post-medieval times.
+It must be highlighted that the archaeological sites GIS database could be
+continuously upgraded with the inclusion of new data related to the collection
+of new and unknown archaeological sites. It is worthy to note that, anyway,
+Fig. 10 – a) White dots indicate archaeological sites located within 1000 m from the “tratturi”
+(black, continuous line); b) White dots indicate archaeological sites located within 1000 m from
+the main rivers. In both figures, black dots indicate archaeological sites far more than 1000 m from
+the applied buffers.
+382
+E. Valente, M. Cozzolino
+the documentary research has pointed out some critical aspects. During the
+analysis of the Superintendence for Archaeological Heritage archives, it was
+impossible to trace the complete documentation related either to archaeological surveys carried out during the period 1970-1990 or to excavations in
+course of publication. In addition, there is an anomalous lack of information
+on some archaeological contexts, as evidenced by the few archaeological sites
+mapped in the municipality of Campobasso. Furthermore, archaeological sites
+are missing in other areas because of the lack of interest of the scientific community to carry on a systematic study. In other cases, the geomorphological
+and the environmental features of the territory were not favourable to the
+establishment of human settlements.
+Notwithstanding the limits of data collection, the product of this research
+represents an exhaustive census of archaeological sites within the Molise Region and the GIS analysis carried out within this study allowed us to recognize
+some relevant features of human distribution through space and time. This
+GIS database represents, up to now, the most powerful tool to promote the
+knowledge of the archaeological heritage of the Molise Region worldwide
+and to address urban planning in the next years.
+Ettore Valente*
+Dipartimento di Scienze della Terra, dell’Ambiente e delle Risorse
+Università degli Studi di Napoli Federico II
+ettore.valente@unina.it
+Marilena Cozzolino
+Dipartimento di Scienze Umanistiche, Sociali e della Formazione
+Università del Molise
+marilena.cozzolino@unimol.it
+Acknowledgements
+We are grateful to the Superintendence for Archaeological Heritage of the Molise Region
+that allowed us to analyse their entire archives, including historical documents. We also
+wish to thank Dr. Antonella Golino and Dr. Rosa Cannavacciuolo that have participated
+to the first collection of data in the frame of the Project “Conoscere per Competere”.
+REFERENCES
+AA.VV. 1980, Sannio: Pentri e Frentani dal VI al I sec. a.C., Catalogo della Mostra, Roma,
+De Luca.
+Amato V., Aucelli P.P.C., Capozzi A., De Benedittis G.F., Pappone G., Rosskopf C.M.
+2013, Environmental changes in the Boiano intramontane basin (Molise, Italy) since the times of ancient Bovianum (IVth century BC), «Alpine and Mediterranean Quaternary»,
+26, 1, 15-29.
+* Corresponding author.
+383
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+Amato V., Cozzolino M., De Benedittis G., Di Paola G., Gentile V., Giordano C.,
+Marino P., Rosskopf C.M., Valente E. 2016, An integrated quantitative approach to assess the archaeological heritage in highly anthropized areas: The case study of Aesernia
+(Southern Italy), «Acta Imeko», 5, 2, 33-43.
+Barker G. 1995, The Biferno Valley Survey. The Archaeological and Geomorphological Record, London, Leicester University Press.
+Caliò L.M., Lepone A., Lippolis E. 2011, Larinum. The development of the forum area, in F.
+Colivicchi (ed.), Local Cultures of South Italy and Sicily in the Late Republican Period: Between Hellenism and Rome, «Journal of Roman Archaeology», Suppl. 83, 7A-111.
+Capini S. 1990, Venafro (Isernia): il teatro romano, «Bollettino di Archeologia», 229-232.
+Capini S., De Benedittis G. 2000, Pietrabbondante: guida agli scavi, Campobasso, Tipoli- tografia Fotolampo.
+Catalano D., Paone N., Terzani C. 2001, Isernia, Isernia, Cosmo Iannone Editore.
+Ceglia V. 1988, Lo scavo della necropoli di Vicenne, «Conoscenze», 4, 31-48.
+Ceglia V. 2000, Campochiaro (CB). La necropoli di Vicenne, in E. Arslan, M. Buora (eds.)
+L’oro degli Avari. Popolo delle steppe in Europa, Milano, InForm Edizioni, 212-221.
+Ceglia V. 2015, Saepinum. Il sistema idrico e fognante, «Considerazioni di Storia e Archeo- logia», 8, 23-32.
+Ceglia V., Marchetta I. 2012, Nuovi dati dalla necropoli di Vicenne a Campochiaro, in C.
+Ebanista, M. Rotili (eds.), La trasformazione del mondo romano e le grandi migrazioni. Nuovi popoli dall’Europa settentrionale e centro-orientale alle coste del Mediterraneo. Atti del Convegno internazionale di studi (Cimitile-Santa Maria Capua Vetere 2011), Giornate sulla Tarda Antichità e il Medioevo, 4, Cimitile, Tavolario, 217-238.
+Chapman H. 2006, Landscape Archaeology and GIS, Gloucestershire, Stroud.
+Coarelli F., La Regina A. 1984, Abruzzo, Molise, Guide archeologiche Laterza, Roma-Bari,
+Laterza.
+Coltorti M., Cremaschi M., Delitala M.C., Esu D., Fornaseri M., McPherron A.,
+Nicoletti M., van Otterloo R., Peretto C., Sala P., Schmidt V., Sevink J., 1982,
+Reversed magnetic polarity at Isernia La Pineta, a new lower Paleolithic site in Central
+Italy, «Nature», 300, 173-176.
+Coltorti M., Ferand, G., Marzoli A., Peretto C., Ton That T., Voinchet P., Bahain
+J.J., Minelli A., Thun Hohenstein U. 2005, New 40Ar/39Ar, stratigraphic and paleo- climatic data on the Isernia La Pineta Lower Paleolithic site, Molise, Italy, «Quaternary International», 131, 11-22.
+Conventi M. 2004, Città romane di fondazione, Roma, L’Erma di Bretschneider.
+De Benedittis G. 1974, Il centro sannitico di Monte Vairano presso Campobasso, in Docu- menti di antichità italiche e romane. Soprintendenza ai monumenti alle antichità e alle
+belle arti del Molise, 5, Campobasso, 16-17.
+De Benedittis G. 1977, Bovianum ed il suo territorio: primi appunti di topografia storica, Isernia, Laveglia Ed.
+De Benedittis G. 1979, Abruzzo Molise. Guide d’Italia, Milano, Touring Club d’Italia.
+De Benedittis G. 1981, Saepinum: città e territorio tra tardo Impero e basso Medioevo, «Archivio Storico per le Province Napoletane», 20, 7-30.
+De Benedittis G. 1988, Monte Vairano, la casa di “LN”, Catalogo della Mostra, Campo- basso, Studio Emmezeta.
+De Benedittis G. 2004, Bovianum, Aesernia, Monte Vairano: considerazioni sull’evoluzione
+dell’insediamento nel Sannio pentro, in H. Jones (ed.), Samnium. Settlement and Cultural
+Change, Archaeologia Transatlantica 22, Providence, Brown University, 26-28.
+De Benedittis G. 2008, Molise: esperienze di survey: Riccia, Oratino, Castropignano, Isernia,
+Istituto regionale per gli studi storici del Molise.
+De Tata P. 1990, L’anfiteatro romano di Larinum: le campagne di scavo 1987-1988, «Cono- scenze», 6, 129-137.
+384
+E. Valente, M. Cozzolino
+Di Niro A. 1991, Larinum, in S. Capini, A. Di Niro (eds.), Samnium. Archeologia del Molise,
+Catalogo della Mostra, Roma, Quasar, 263-267.
+Di Niro A., Santone M., Santoro W. 2010, Carta del Rischio Archeologico nell’area del
+Cratere. Primi dati di survey nei comuni colpiti dal sisma del 2002, Campobasso, Soprintendenza per i Beni Archeologici del Molise.
+Di Rocco G. 2009, Castelli e borghi murati della Contea di Molise (secoli X-XIV), Quaderni
+di Archeologia Medievale 10, Firenze, All’Insegna del Giglio.
+Djindjian F. 1998, GIS usage in worldwide archaeology, in P. Moscati (ed.), Methodological Trends and Future Perspectives in the Application of GIS in Archaeology, «Archeologia e Calcolatori», 9, 19-30.
+Gaggiotti M., Matteini Chiari M. 1979, Sepino. Archeologia e continuità, Campobasso, Edizioni Enne.
+Gillings M., Wheatley D. 2003, Spatial Technology and Archaeology. The Archaeological Applications of GIS, London, Taylor&Francis.
+Grimaldi S. 2005, Nuove ricerche sul Paleolitico del Molise. Materie prime, industrie litiche, insediamenti, Isernia, Centro Europeo di Ricerche Preistoriche.
+La Regina A. 2014, Pietrabbondante e il Sannio antico, «Almanacco del Molise», 161-208.
+Lippolis E., Guidone S., Lepone A., Mazzilli G. 2015, Larino: ricerche nell’area del Foro, «Scienze dell’Antichità», 21, 1, 69-100.
+Marazzi F., Delogu P. (eds.) 1996, San Vincenzo al Volturno: cultura, istituzioni, economia,
+Monteroduni, Edizioni Cep.
+Marino L., Carnevale S., Pesino C. 2003, Guida ai castelli del Molise, Pescara, CARSA
+Edizioni.
+Mastronardi N. 2004, I giganti verdi. Immagini, incontri e suggestioni lungo i tratturi del Molise, Cerro al Volturno, Volturnia Ed.
+Mataluna S. 2012, Il territorio tra Allifae e Venafrum, in Quilici, Quilici 2011, 11-128.
+Matteini Chiari M., Gaggiotti M., De Benedettis G. 1984, Saepinum-Sepino, Campo- basso, Edizioni Enne.
+Meini M., Di Felice G., Petrella M. 2018, Geotourism perspectives for transhumance routes. Analysis, requalification and virtual tools for the geoconservation management
+of the drove roads in Southern Italy, «Geosciences», 8, 10, 368.
+Minelli A., Peretto C. 2006, Preistoria in Molise. Gli insediamenti del territorio di Isernia, Roma, Aracne Editrice.
+Minotti M., Giancola C., Di Marzio P., Di Martino P. 2018, Land use dynamics of drove roads: The case of tratturo Castel di Sangro-Lucera (Molise, Italy), «Land», 7, 3.
+Morel J.P. 1984, Il santuario sannitico di Vastogirardi. Resoconto degli scavi archeologici degli anni 1971, 1973 e 1974, in Sannio: Pentri e Frentani dal VI al I secolo a.C. Atti
+del Convegno (Isernia 1980), Campobasso, Enne.
+Oakley S.P. 1995, The Hill-forts of the Samnites, Rome, Archaeological Monographs of the British School of Rome.
+Pagano M., Ceccarelli A., D’Andrea A. 2005, La ripresa delle esplorazioni e degli scavi nel santuario italico di Vastogirardi (IS), in D. Caiazza (ed.), Italica ars. Studi in onore di
+Giovanni Colonna per il premio I Sanniti, Piedimonte Matese, Grillo, 451-505.
+Paone N., Schioppa A., Marazzi F., Vignone F., Speciale L., De Luca Roberti L., Shaw
+A. 2004, San Vincenzo al Volturno, Isernia, Cosmo Iannone Editore.
+Pellicano A. 2007, Geografia e storia dei tratturi del Mezzogiorno, Roma, Aracne.
+Peretto C. 2013, Isernia La Pineta, Isernia, Cosmo Iannone Editore.
+Quilici L., Quilici Gigli S. 2011, Carta Archeologica e ricerche in Campania. Fascicolo 5:
+Comune di Venafro, Roma, Atlante Tematico di Topografia Antica, Suppl. XV.
+Rufo E. 2011, Note sulla preistoria dell’Alta Valle del Volturno, in A. Testa (ed.), L’abbazia
+di San Vincenzo e l’alta valle del Volturno, «ArcheoMolise», 3, 8, 8-17.
+385
+GIS mapping of the archaeological sites in the Molise Region (Italy)
+Rufo E., Minelli A., Lembo G., Paglione B., Peretto C. 2010, La preistoria dell’alto Molise.
+Una panoramica, «ArcheoMolise», 2, 4, 6-19.
+Santorelli S. 2013, Trivento, testimonianze dal passato, «Archeomolise», 14, 22-35.
+Sardella B. 2011, Fra Terventum e Aufidene. Carta archeologica dei territori montani del Sannio Pentro nord-occidentale, Tesi di Dottorato, Seconda Università degli Studi di Napoli.
+Stek T.D. 2010, Cult Places and Cultural Change in Republican Italy, Amsterdam, Amsterdam
+University Press.
+Stek T.D., Modrall E.B., Kalkers R.A.A., van Otterloo R.H., Sevink J. 2015, An early
+Roman colonial landscape in the Apennine mountains: Landscape archaeological research in the territory of Aesernia (Central-Southern Italy), «Analysis Archaeologica»,
+1, 229-291.
+Terzani C. 2005, Scavo archeologico della cinta muraria di Aesernia, «FOLD&R. Fasti On
+Line Documents & Research», 35, 1-2.
+Zilli I. 2010, Atlante delle emergenze culturali del Molise. Risultati, riflessioni ed implicazioni
+di un primo censimento, Campobasso, Palladino Editore.
+ABSTRACT
+The Molise Region, on the Adriatic coast of southern Italy, experienced human presence
+since prehistoric times. Site distribution is not homogeneous throughout the region and a com- prehensive census of all known archaeological sites has never been performed. In this paper,
+we present the results of a three-year project for the GIS mapping and database creation for
+all the known archaeological sites of the Molise Region. As a result, 3111 archaeological sites
+have been mapped, stored in a GIS database and then analysed through Spatial Analyst tools.
+Most of the mapped sites have been classified as area of archaeological finds (57.1% of the
+total sites), followed by settlements (12.9%) and buildings (9.8%). Site distribution is mainly
+clustered along the Biferno river valley, in the central and in the south-western sectors of the
+Molise Region. The largest human occupation of the region occurred during the Samnite and
+Roman ages. Archaeological sites are also located at different elevation a.s.l., with a general
+increasing trend of site elevation through time. This GIS database is, up to now, the most
+complete census of archaeological sites in the study area, thus representing a powerful tool
+to promote the archaeological heritage of the Molise Region and to address urban planning.
